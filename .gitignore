@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 若 data 下 .h5 或图片过大，可取消下面注释以排除
+# data/**/*.h5
+# data/**/*.png
+# data/**/*.jpg
+
+# 系统文件
+.DS_Store
+Thumbs.db
